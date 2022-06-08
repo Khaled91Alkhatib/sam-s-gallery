@@ -1,20 +1,33 @@
 import React from 'react';
 import './styles/NavList.css';
 import logoImage from "../images/fashion-dress-icon.png";
+import { CustomerService } from './CustomerService';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+library.add(faBagShopping);
+library.add(faPhone);
 
 export const NavList = () => {
   return (
-    <div>
-      <div class="image-and-name">
+    <div className="main-nav-bar">
+
+      <div className="image-and-name">
         <p>Sam's</p>
         <img src={logoImage} alt='Dress' />
         <p><strong>Gallery</strong></p>
       </div>
-      <div class="main-nav">
-        <button>Gallery</button>
-        <button>Customer Service</button>
-        <button>Shopping bag</button>
-        <button>Pending orders</button>
+
+      <div className="buttons">
+        <button>Our Collection</button>
+
+        <button><FontAwesomeIcon icon="fa-solid fa-bag-shopping" /> Shopping Bag</button>
+
+        <button>Pending Purchases</button>
+
+        <CustomerService />
       </div>
     </div>
   );
