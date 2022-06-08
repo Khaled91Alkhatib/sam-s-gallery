@@ -1,5 +1,17 @@
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(67, 67, 67);
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
   position: absolute;
+  background-color: rgb(199, 199, 199);
+  padding: 5px 12px;
+  border-radius: 20px;
 }
