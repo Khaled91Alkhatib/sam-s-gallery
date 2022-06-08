@@ -23,7 +23,7 @@ export const NavList = () => {
       <div className="buttons">
         <button>Our Collection</button>
 
-        <button><FontAwesomeIcon icon="fa-solid fa-bag-shopping" /> Shopping Bag</button>
+        <button><FontAwesomeIcon icon="fa-solid fa-bag-shopping" />&nbsp; Shopping Bag</button>
 
         <button>Pending Purchases</button>
 
