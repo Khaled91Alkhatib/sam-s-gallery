@@ -1,29 +1,37 @@
-.gallery-name {
-  font-size: 35px;
-  display: block;
-  text-align: center;
-  font-family: "Bungee", cursive;
-  font-family: "Cedarville Cursive", cursive;
-  margin-bottom: 0.3em;
+.main-nav-bar {
+  /* background-color: rgb(202, 56, 56); */
+  background-color: #debaba;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* position: absolute; */
+  width: 100%;
 }
-.main-nav {
-  width: 50%;
+
+.buttons {
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding-left: 2.5em;
+  /* position: relative; */
 }
 
 button {
   font-size: 16px;
+  height: 30px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .image-and-name {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 35px;
+  font-size: 37px;
   font-family: "Bungee", cursive;
   font-family: "Cedarville Cursive", cursive;
+  padding-top: 0.3em;
 }
 
 img {
