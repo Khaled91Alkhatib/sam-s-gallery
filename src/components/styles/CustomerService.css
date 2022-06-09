@@ -1,10 +1,16 @@
-button {
-  border: none;
+.customer-service-button {
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  font-size: 18px;
+  height: 30px;
+  /* border: none; */
+  border-color: pink;
+  border-width: 2px;
   border-radius: 10px;
   padding: 20px 20px;
   display: flex;
   align-items: center;
-  color: rgb(67, 67, 67);
+  color: rgb(75, 75, 75);
 }
 
 .contact-info {
