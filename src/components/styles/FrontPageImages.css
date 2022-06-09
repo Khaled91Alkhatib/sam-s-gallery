@@ -1,0 +1,18 @@
+.front-page-images {
+  width: 400px;
+  height: auto;
+}
+
+.banner {
+  width: 100%;
+  border: none;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../images/Banner.png');
+}

@@ -1,6 +1,5 @@
 .main-nav-bar {
-  /* background-color: rgb(202, 56, 56); */
-  background-color: #debaba;
+  background-color: #de6d6d;
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   /* position: absolute; */
   width: 100%;
@@ -11,7 +10,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding-left: 3em;
+  padding-left: 2.5em;
   padding-bottom: 0.3em;
   /* position: relative; */
 }
@@ -24,17 +23,17 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   font-size: 37px;
   font-family: "Bungee", cursive;
   font-family: "Cedarville Cursive", cursive;
   padding-top: 0.3em;
 }
 
-img {
+.logo {
   display: flex;
   justify-content: center;
-  width: 100px;
-  height: 150px;
+  height: 115px;
   margin: 0 0.5em;
   text-align: center;
   border-radius: 70%;
