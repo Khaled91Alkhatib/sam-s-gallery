@@ -6,19 +6,17 @@ import { OurCollection } from './OurCollection';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-library.add(faBagShopping);
-library.add(faPhone);
+import { faBagShopping, faPhone } from "@fortawesome/free-solid-svg-icons";
+library.add(faBagShopping, faPhone);
 
 export const NavList = () => {
   return (
     <div className="main-nav-bar">
 
       <div className="image-and-name">
-        <p>Sam's</p>
-        <img src={logoImage} alt='Dress' />
-        <p><strong>Gallery</strong></p>
+        <div>Sam's</div>
+        <img className='logo' src={logoImage} alt='Logo' />
+        <div><strong>Gallery</strong></div>
       </div>
 
       <div className="buttons">
