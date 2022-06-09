@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/NavList.css';
 import logoImage from "../images/fashion-dress-icon.png";
 import { CustomerService } from './CustomerService';
+import { OurCollection } from './OurCollection';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -21,7 +22,7 @@ export const NavList = () => {
       </div>
 
       <div className="buttons">
-        <button>Our Collection</button>
+        <OurCollection />
 
         <button><FontAwesomeIcon icon="fa-solid fa-bag-shopping" />&nbsp; Shopping Bag</button>
 
