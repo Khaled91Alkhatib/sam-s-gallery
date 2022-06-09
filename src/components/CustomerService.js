@@ -20,7 +20,7 @@ export const CustomerService = () => {
 
   return (
     <div>
-      <button onClick={onClick}><FontAwesomeIcon icon="fa-solid fa-phone" />&nbsp; Customer Service</button>
+      <button className='customer-service-button' onClick={onClick}><FontAwesomeIcon icon="fa-solid fa-phone" />&nbsp; Customer Service</button>
       {customerServiceData && (
         <div className='contact-info'>
           <a href="https://github.com/Khaled91Alkhatib"> Github</a>
