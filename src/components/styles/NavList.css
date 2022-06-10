@@ -26,7 +26,6 @@ button:hover {
   align-items: center;
   font-size: 37px;
   font-family: "Bungee", cursive;
-  font-family: "Cedarville Cursive", cursive;
   padding-top: 0.3em;
 }
 
@@ -37,4 +36,21 @@ button:hover {
   margin: 0 0.5em;
   text-align: center;
   border-radius: 70%;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.about-us {
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  font-size: 18px;
+  height: 30px;
+  border-color: pink;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(75, 75, 75);
 }

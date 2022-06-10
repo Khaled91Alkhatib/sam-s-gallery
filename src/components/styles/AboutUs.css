@@ -1,0 +1,20 @@
+.front-page-images {
+  width: 400px;
+  height: auto;
+}
+
+.all-about-us {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-text {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-family: "Cedarville Cursive", cursive;
+  margin: 1em 1em;
+  padding: 0 1em 0 1em;
+  background-color: #ecf0f3;
+  border-radius: 14px;
+}
