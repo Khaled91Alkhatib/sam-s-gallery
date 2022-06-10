@@ -2,6 +2,7 @@ import React from 'react';
 import "./styles/Footer.css";
 
 export const Footer = () => {
+
   return (
     <div className='footer'>
       <div>
@@ -12,8 +13,6 @@ export const Footer = () => {
         Eaton Center
         <br />
         220 Yonge St, Toronto, ON M5B 2H1
-        {/* <br />
-          khaledkhatib91@hotmail.com */}
       </div>
       <div className='shop-hours'>
         <strong>
