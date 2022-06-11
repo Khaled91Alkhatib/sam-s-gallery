@@ -3,6 +3,7 @@ import { FrontPageImages } from './components/FrontPageImages';
 import { NavList } from './components/NavList';
 import { Footer } from './components/Footer';
 import { AboutUs } from './components/AboutUs';
+import { HatsItems } from './components/HatsItems';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
             <AboutUs />
           }
           />
+          <Route path="Hats" element={
+            <HatsItems />
+          } />
         </Routes>
         <Footer />
       </BrowserRouter>
