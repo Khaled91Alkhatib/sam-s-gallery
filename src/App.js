@@ -3,7 +3,7 @@ import { FrontPageImages } from './components/FrontPageImages';
 import { NavList } from './components/NavList';
 import { Footer } from './components/Footer';
 import { AboutUs } from './components/AboutUs';
-import { HatsItems } from './components/HatsItems';
+import { HatsList } from './components/HatsList';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           }
           />
           <Route path="Hats" element={
-            <HatsItems />
+            <HatsList />
           } />
         </Routes>
         <Footer />
