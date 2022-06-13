@@ -1,4 +1,4 @@
-.main-hats-list {
+.main-Collection-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 }
 
-.hats-list {
+.Collection-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@
   margin: 2em 0 1.5em 0;
 }
 
-.hat-images {
+.Collection-images {
   width: 280px;
   height: 300px;
   object-fit: cover;
