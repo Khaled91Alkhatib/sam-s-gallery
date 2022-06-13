@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./styles/HatsListItem.css";
+import "./styles/CollectionListItem.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -22,7 +22,7 @@ export const HatsListItem = ({ backClick, clickedItem }) => {
     <div className='overlay-style'>
       <div className='background'>
         <div className='image-to-desc' key={clickedItem.id}>
-          <img className='hat-item' src={`/images/${clickedItem.image_path}`} alt="hat" />
+          <img className='Collection-item' src={`/images/${clickedItem.image_path}`} alt="hat" />
           <div className='data-to-button'>
             <div>
               <div className='single-item-name'>

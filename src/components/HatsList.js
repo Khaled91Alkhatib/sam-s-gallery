@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import "./styles/HatsList.css";
+import "./styles/CollectionList.css";
 import { HatsListItem } from './HatsListItem';
 
 
@@ -20,10 +20,10 @@ export const HatsList = () => {
   // console.log("clicked item", clickedItem)
 
   return (
-    <div className='main-hats-list'>
+    <div className='main-Collection-list'>
       {hatslist.map((val) => {
-        return <div className='hats-list' key={val.id}>
-          <img className='hat-images' src={`/images/${val.image_path}`} alt="hat" />
+        return <div className='Collection-list' key={val.id}>
+          <img className='Collection-images' src={`/images/${val.image_path}`} alt="hat" />
           <div className='item-name'>{val.name}</div>
           <div>${val.price}</div>
           <button onClick={() => { setItemId(val.id); setMoreDetails(true); setClickedItem(val); }} className='detail-button'>More Details</button>
