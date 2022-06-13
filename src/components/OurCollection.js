@@ -4,8 +4,13 @@ import "./styles/OurCollection.css";
 
 export const OurCollection = () => {
   const navigate = useNavigate();
+
   const onClickHats = () => {
     navigate('/Hats');
+  };
+
+  const onClickBelts = () => {
+    navigate('/Belts');
   };
 
   const [ourCollectionData, setOurCollectionData] = useState(false);
@@ -19,7 +24,7 @@ export const OurCollection = () => {
       {ourCollectionData && (
         <div className='inner-collection-buttons'>
           <button onClick={onClickHats} className='items'>Hats</button>
-          <button className='items'>Belts</button>
+          <button onClick={onClickBelts} className='items'>Belts</button>
           <button className='items'>Dresses</button>
           <button className='items'>Shoes</button>
         </div>
