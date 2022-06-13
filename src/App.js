@@ -4,6 +4,7 @@ import { NavList } from './components/NavList';
 import { Footer } from './components/Footer';
 import { AboutUs } from './components/AboutUs';
 import { HatsList } from './components/HatsList';
+import { BeltsList } from './components/BeltsList';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
           />
           <Route path="Hats" element={
             <HatsList />
+          } />
+          <Route path="Belts" element={
+            <BeltsList />
           } />
         </Routes>
         <Footer />
