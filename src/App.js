@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import { AboutUs } from './components/AboutUs';
 import { HatsList } from './components/HatsList';
 import { BeltsList } from './components/BeltsList';
+import { DressesList } from './components/DressesList';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
           } />
           <Route path="Belts" element={
             <BeltsList />
+          } />
+          <Route path="Dresses" element={
+            <DressesList />
           } />
         </Routes>
         <Footer />
