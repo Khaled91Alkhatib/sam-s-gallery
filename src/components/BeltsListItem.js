@@ -20,8 +20,7 @@ export const BeltsListItem = ({ backClick, clickedItem }) => {
   return (
     <div className='overlay-style'>
       <div className='background'>
-        <div className='image-to-desc' key={clickedItem.id}>
-          <img className='Collection-item' src={`/images/${clickedItem.image_path}`} alt="belt" />
+        <div key={clickedItem.id}>
           <div className='data-to-button'>
             <div>
               <div className='single-item-name'>
