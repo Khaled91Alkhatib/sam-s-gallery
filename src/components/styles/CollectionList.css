@@ -14,15 +14,21 @@
   align-items: center;
   background-color: #ecf0f3;
   border-radius: 20px;
-  margin: 2em 0 1.5em 0;
+  margin: 2em 2em 1.5em 2em;
 }
 
 .Collection-images {
-  width: 280px;
-  height: 300px;
-  object-fit: cover;
+  /* width: 280px; */
+  height: 200px;
+  /* object-fit: cover; */
   float: left;
   border-radius: 15%;
+  padding: 25px 25px 15px 25px;
+}
+
+.dresses-images {
+  height: 400px;
+  border-radius: 20%;
   padding: 25px 25px 15px 25px;
 }
 
