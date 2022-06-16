@@ -19,12 +19,6 @@
   border-radius: 20px;
 }
 
-.image-to-desc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .data-to-button {
   margin-left: 2em;
   text-align: center;
