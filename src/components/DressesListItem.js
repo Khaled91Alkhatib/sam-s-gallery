@@ -18,6 +18,9 @@ export const DressesListItem = ({ backClick, clickedItem }) => {
   return (
     <div className='overlay-style'>
       <div className='background'>
+        <div className='image-to-desc' key={clickedItem.id}>
+          <img className='dress-item' src={`/images/${clickedItem.image_path}`} alt="hat" />
+        </div>
         <div key={clickedItem.id}>
           <div className='data-to-button'>
             <div>
