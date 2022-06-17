@@ -6,6 +6,7 @@ import { AboutUs } from './components/AboutUs';
 import { HatsList } from './components/HatsList';
 import { BeltsList } from './components/BeltsList';
 import { DressesList } from './components/DressesList';
+import { ShoesList } from './components/ShoesList';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
           } />
           <Route path="Dresses" element={
             <DressesList />
+          } />
+          <Route path="Shoes" element={
+            <ShoesList />
           } />
         </Routes>
         <Footer />
