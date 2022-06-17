@@ -17,6 +17,10 @@ export const OurCollection = () => {
     navigate('/Dresses');
   };
 
+  const onClickShoes = () => {
+    navigate('/Shoes');
+  };
+
   const [ourCollectionData, setOurCollectionData] = useState(false);
   const onClickOurCollection = () => {
     setOurCollectionData(current => !current);
@@ -30,7 +34,7 @@ export const OurCollection = () => {
           <button onClick={onClickHats} className='items'>Hats</button>
           <button onClick={onClickBelts} className='items'>Belts</button>
           <button onClick={onClickDresses} className='items'>Dresses</button>
-          <button className='items'>Shoes</button>
+          <button onClick={onClickShoes} className='items'>Shoes</button>
         </div>
       )}
     </div>
